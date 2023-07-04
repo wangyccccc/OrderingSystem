@@ -1,0 +1,98 @@
+.la{
+    -fx-text-fill: #FFFFFFFF;
+    -fx-font-family: "李旭科经典行书";
+    -fx-font-size: 32;
+}
+.anchorPaneTop{
+    -fx-pref-width: 1228;
+    -fx-background-color: #000000;
+}
+#search{
+    -fx-font-size: 13;
+    -fx-background-radius: 20;
+    -fx-border-width: 0;
+    -fx-text-fill: black;
+    -fx-background-color: #00fffc;
+}
+.text-field{
+    -fx-pref-width: 153;
+    -fx-font-size: 15;
+    -fx-background-color: transparent;
+}
+
+#lHearName{
+    -fx-stroke: #fcfcfc;
+}
+.hyperlink:hover{
+    -fx-text-fill: yellow;
+}
+.hyperlink:focused{
+    -fx-text-fill: red;
+}
+
+.lb{
+    -fx-font-family: "李旭科经典行书";
+    -fx-font-size: 15;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.button{
+    -fx-text-fill: #f9c907;
+    -fx-background-color: transparent;
+}
+
+.anchorpane{
+    -fx-background-color: #000000;
+}
+.flowpane{
+    -fx-background-color: #fcfbfb;
+    -fx-hgap: 8;
+    -fx-vgap: 8;
+}
+
+#scrollPane {
+    -fx-background-color: #ffffff;
+    -fx-hbar-policy: never;
+}
+.scroll-bar:vertical .track{
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius:2em;
+}
+.scroll-bar:vertical .increment-button,
+.scroll-bar:vertical .decrement-button{
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+    -fx-background-color: transparent;
+}
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-shape: " ";
+    -fx-padding:0;
+}
+.scroll-bar:vertical .thumb{
+    -fx-background-color:derive(black,100%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+.scroll-bar:vertical:hover .track,
+.scroll-bar:vertical:pressed .track{
+    -fx-background-color: rgba(204, 204, 204, 0.55);
+    -fx-opacity: 0.2;
+    -fx-background-radius: 0em;
+}
+.scroll-bar:vertical .thumb:hover,
+
+.scroll-bar:vertical .thumb:pressed{
+    -fx-background-color: derive(black,50%);
+}
+.scroll-bar:vertical .increment-button:hover ,
+.scroll-bar:vertical .decrement-button:hover{
+    -fx-background-color:derive(gray,100%);
+    -fx-border-color:derive(gray,80%);
+}
+
+.vGlobal{
+    -fx-background-color: #ffffff;
+}

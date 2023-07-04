@@ -1,0 +1,28 @@
+/* 1.设置锚点容器anchorPane的背景图片 */
+#anchorPane{
+    -fx-background-image: url('/com/orderingsystem/images/other/前端登录界面.jpg');
+    -fx-background-position: center;-fx-background-repeat: no-repeat;
+}
+/* 2.Label标签字体设置 */
+.label{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-text-fill: "white";
+}
+/* 3.文本框样式设置 */
+.text-field{
+    -fx-pref-width: 160;
+    -fx-pref-height: 20;
+}
+/* 4.超链接样式设置 */
+.hyperlink{
+    -fx-text-fill: "pink";
+    -fx-font-weight: bold;
+}
+/* 5.系统名标签字体样式 */
+#systemName{
+    -fx-font-family: "李旭科经典行书";
+    -fx-font-size: 35;
+    -fx-text-fill: linear-gradient(to right, red,#FFFFFFFF,#f9c907,pink,yellow,#00ff00,#fff600,#ff00ff);
+    -fx-font-weight: bold;
+}

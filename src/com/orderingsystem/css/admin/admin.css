@@ -1,0 +1,27 @@
+.menu-button {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.order-button {
+    -fx-background-color: #17a2b8;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.user-button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.member-button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: #fff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
